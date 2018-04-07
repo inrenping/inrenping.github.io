@@ -1,0 +1,49 @@
+---
+layout: cover
+title: Random Yin
+---
+
+<main>
+    <center>
+        <div id="banner">{{ site.author.first_name }} <span id="spb"></span></div>
+        <script>
+            $(function() {
+                $("#spb").typed({
+                    strings: ["Yin", "Programmer", "Nihilism", "Otaku", "Yin"],
+                    typeSpeed: 100,
+                    loop: false,
+                    startDelay: 0
+                });
+            });
+        </script>
+        <ul>
+            {% for link in site.links %}
+            <li>
+                <a data-chaffle="en" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="javascript:" id="more">MORE</a>
+    </center>
+</main>
+<footer>
+    <article id="about">
+        <h1>BIO.</h1>
+        <p></p>
+    </article>
+    
+    <article>
+        <h1>INTERESTS</h1>
+        <p></p>
+    </article>
+</footer>
+<script>
+    var elements = document.querySelectorAll('[data-chaffle]');
+
+    Array.prototype.forEach.call(elements, function(el) {
+        var chaffle = new Chaffle(el)
+        el.addEventListener('mouseover', function() {
+            chaffle.init();
+        });
+    });
+</script>

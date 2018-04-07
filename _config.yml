@@ -1,0 +1,29 @@
+
+title:            'Random Yin'
+url:              https://inrenping.github.io
+
+author:
+  name:           'Random Yin'
+  first_name:     'Random' 
+  last_name:      'Yin'
+
+links: 
+- title:          Instagram
+  url:            \\instagram.com/inrenping
+  class:          instagram-icon
+
+- title:          Twitter
+  url:            \\twitter.com/inrenping
+  class:          twitter-icon
+
+- title:          Blog
+  url:            \\blog.inrenping.com
+  class:          github-icon
+  
+- title:          Douban
+  url:            \\www.douban.com/people/inrenping
+  class:          douban-icon
+
+- title:          Mail
+  url:            mailto:inrenping@gmail.com
+  class:          gmail-icon
