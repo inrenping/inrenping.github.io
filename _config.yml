@@ -9,19 +9,19 @@ author:
 
 links: 
 - title:          Instagram
-  url:            \\instagram.com/inrenping
+  url:            //instagram.com/inrenping
   class:          instagram-icon
 
 - title:          Twitter
-  url:            \\twitter.com/inrenping
+  url:            //twitter.com/inrenping
   class:          twitter-icon
 
 - title:          Blog
-  url:            \\blog.inrenping.com
+  url:            //blog.inrenping.com
   class:          github-icon
   
 - title:          Douban
-  url:            \\www.douban.com/people/inrenping
+  url:            //www.douban.com/people/inrenping
   class:          douban-icon
 
 - title:          Mail
