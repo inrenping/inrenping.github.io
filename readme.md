@@ -1,0 +1,2 @@
+
+[view](\\www.inrenping.com)

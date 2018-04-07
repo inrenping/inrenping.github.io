@@ -27,15 +27,12 @@ title: Random Yin
     </center>
 </main>
 <footer>
-    <article id="about">
-        <h1>BIO.</h1>
-        <p></p>
-    </article>
-    
+    {% for article in site.articles %}
     <article>
-        <h1>INTERESTS</h1>
-        <p></p>
+        <h1>{{ article.title }}</h1>
+        {{ article.content }}
     </article>
+    {% endfor %}
 </footer>
 <script>
     var elements = document.querySelectorAll('[data-chaffle]');

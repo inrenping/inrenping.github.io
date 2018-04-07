@@ -27,3 +27,7 @@ links:
 - title:          Mail
   url:            mailto:inrenping@gmail.com
   class:          gmail-icon
+
+articles: 
+- title: 'BIO.'
+  content: '<p>Hello,World!</p>'
