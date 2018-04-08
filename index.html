@@ -28,7 +28,11 @@ title: Random Yin
 </main>
 <footer>
     {% for article in site.articles %}
+    {% if forloop.index > 1 %}
     <article>
+    {% else %}
+    <article id="about">    
+    {% endif %}
         <h1>{{ article.title }}</h1>
         {{ article.content }}
     </article>
