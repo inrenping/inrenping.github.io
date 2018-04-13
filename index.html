@@ -19,7 +19,7 @@ title: Random Yin
         <ul>
             {% for link in site.links %}
             <li>
-                <a data-chaffle="en" href="{{ link.url }}">{{ link.title }}</a>
+                <a data-chaffle="en" href="{{ link.url }}"><i class="icon iconfont {{ link.class }}"></i>  {{ link.title }}</a> &nbsp;
             </li>
             {% endfor %}
         </ul>
