@@ -9,8 +9,8 @@ title: Random Yin
         <script>
             $(function() {
                 $("#spb").typed({
-                    strings: ["Yin", "Programmer", "Nihilism", "Otaku", "Yin"],
-                    typeSpeed: 100,
+                    strings: ["Yin", "Coder", "Nihilism", "Otaku", "Yin"],
+                    typeSpeed: 150,
                     loop: false,
                     startDelay: 0
                 });
@@ -19,7 +19,7 @@ title: Random Yin
         <ul>
             {% for link in site.links %}
             <li>
-                <a data-chaffle="en" href="{{ link.url }}"><i class="icon iconfont {{ link.class }}"></i>  {{ link.title }}</a> &nbsp;
+                <a data-chaffle="en" href="{{ link.url }}">{{ link.title }}</a>
             </li>
             {% endfor %}
         </ul>
@@ -40,7 +40,6 @@ title: Random Yin
 </footer>
 <script>
     var elements = document.querySelectorAll('[data-chaffle]');
-
     Array.prototype.forEach.call(elements, function(el) {
         var chaffle = new Chaffle(el)
         el.addEventListener('mouseover', function() {

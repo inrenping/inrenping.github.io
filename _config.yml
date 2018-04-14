@@ -10,23 +10,18 @@ author:
 links: 
 - title:          Instagram
   url:            //instagram.com/inrenping
-  class:          icon-instagram
 
 - title:          Twitter
   url:            //twitter.com/inrenping
-  class:          icon-twitter
+
+- title:          Douban
+  url:            //www.douban.com/people/inrenping
 
 - title:          Blog
   url:            //blog.inrenping.com
-  class:          icon-github
   
-- title:          Douban
-  url:            //www.douban.com/people/inrenping
-  class:          icon-douban
-
 - title:          Mail
   url:            mailto:inrenping@gmail.com
-  class:          icon-star
 
 articles: 
 - title: 'BIO.'
