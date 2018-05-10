@@ -11,9 +11,6 @@ links:
 - title:          Instagram
   url:            //instagram.com/inrenping
 
-- title:          Twitter
-  url:            //twitter.com/inrenping
-
 - title:          Douban
   url:            //www.douban.com/people/inrenping
 
@@ -26,9 +23,9 @@ links:
 articles: 
 - title: 'BIO.'
   content: '<p>A Web Developer.</p><p>Commonly Id is <b>inrenping</b>, although many people say it is difficult to read, in fact it is the Chinese name pinyin to rewrite.</p><p>Want to be the best programmer in my street,and till working hard for it.</p>'
+  
+- title: 'Anime'
+  content: '<p>Anime lover.</p><p style="text-decoration: line-through;">Anime cured my empty soul.</p>'
 
 - title: 'Ingress'
   content: '<p>Resistance.Lv12</p><p>Never do any Messions.</p>'
-  
-- title: 'Anime'
-  content: '<p>Anime lover.</p><p style="text-decoration: line-through;">It cured my empty soul.</p>'
