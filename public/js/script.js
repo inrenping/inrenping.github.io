@@ -26,18 +26,18 @@ $(function() {
         setbg(type = 'jpg');
     }
 
-    //Gradient background
-    $(window).scroll(function() {
-        var opacity = Math.floor(document.documentElement.scrollTop / 10) + 40;
-        if (opacity > 90)
-            opacity = 90;
-        else
-            $('main').css('background', 'rgba(20, 20, 20, .' + String(opacity) + ')');
-    });
+    $(".bg").interactive_bg({
+        strength: 30,
+        scale: 1.03,
+        animationSpeed: "100ms",
+        contain: true,
+        wrapContent: false
+      });
 
-    //Go to the top of the page when refreshing
-    window.onbeforeunload = function() {
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
-    }
+    $(window).resize(function() {
+      $(".ibg-bg, html, body, header").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+      });
+    })
 });
